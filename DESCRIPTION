@@ -1,7 +1,7 @@
 Package: Chicago
 Type: Package
 Title: CHiCAGO: Capture Hi-C Analysis of Genomic Organization
-Version: 1.10.0
+Version: 1.10.1
 Author: Jonathan Cairns, Paula Freire Pritchett, Steven Wingett, Mikhail Spivakov
 Maintainer: Mikhail Spivakov <spivakov@babraham.ac.uk>
 Description: A pipeline for analysing Capture Hi-C data.
@@ -11,4 +11,4 @@ Imports: matrixStats, MASS, Hmisc, Delaporte, methods, grDevices, graphics, stat
 Suggests: argparser, BiocStyle, knitr, rmarkdown, PCHiCdata, testthat, Rsamtools,
   GenomicInteractions, GenomicRanges, IRanges, AnnotationHub
 VignetteBuilder: knitr
-biocViews: Epigenetics, HiC, Sequencing, Software
+biocViews: ImmunoOncology, Epigenetics, HiC, Sequencing, Software
