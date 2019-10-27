@@ -34,7 +34,7 @@ designDir <- file.path(system.file("extdata", package="Chicago"), "unitTestDesig
 cd <- setExperiment(designDir)
 
 ##Suppose I want to change the number of samples drawn for dispersion estimation 
-print(settings(cd$brownianNoise.subset)
+print(settings(cd)$brownianNoise.subset)
 
 cd <- modifySettings(cd, settings=list(brownianNoise.subset = 10))
 print(settings(cd)$brownianNoise.subset)
