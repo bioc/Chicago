@@ -11,3 +11,5 @@ Changes in version 1.13 (2019-24-10)
 + Defaults are now updated based on .npb file header rather than just checking them for consistency with it.
 + When using Chicago with four-cutter enzymes, make sure you reduce minFragLen parameter. However, this can now only be done when generating the design files, and not in the R package itself.
 
+Changes in version 1.16.1 (2020-09-08)
++ Fixed a small bug that affected distance function estimation in some cases, particularly when used with four-cutter enzymes.
