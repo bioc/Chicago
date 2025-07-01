@@ -292,6 +292,7 @@ Next, we use the ``anchorTwo()`` function to extract the other end locations fro
 
 ```{r}
 otherEnds <- anchorTwo(gi)
+library(GenomeInfoDb)  # for renameSeqlevels()
 otherEnds <- renameSeqlevels(otherEnds, c("chr20","chr21"))
 ```
 
